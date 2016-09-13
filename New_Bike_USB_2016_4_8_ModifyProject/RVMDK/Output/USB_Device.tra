@@ -1,0 +1,73 @@
+*** Creating Trace Output File '.\Output\USB_Device.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_stm32f10x_ld.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_bkp.o"'
+### List of Objects: adding '".\output\stm32f10x_can.o"'
+### List of Objects: adding '".\output\stm32f10x_cec.o"'
+### List of Objects: adding '".\output\stm32f10x_crc.o"'
+### List of Objects: adding '".\output\stm32f10x_dac.o"'
+### List of Objects: adding '".\output\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_i2c.o"'
+### List of Objects: adding '".\output\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\output\stm32f10x_pwr.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_rtc.o"'
+### List of Objects: adding '".\output\stm32f10x_sdio.o"'
+### List of Objects: adding '".\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\output\usb_core.o"'
+### List of Objects: adding '".\output\usb_init.o"'
+### List of Objects: adding '".\output\usb_int.o"'
+### List of Objects: adding '".\output\usb_mem.o"'
+### List of Objects: adding '".\output\usb_regs.o"'
+### List of Objects: adding '".\output\usb_sil.o"'
+### List of Objects: adding '".\output\hw_config.o"'
+### List of Objects: adding '".\output\usb_desc.o"'
+### List of Objects: adding '".\output\usb_endp.o"'
+### List of Objects: adding '".\output\usb_istr.o"'
+### List of Objects: adding '".\output\usb_prop.o"'
+### List of Objects: adding '".\output\usb_pwr.o"'
+### List of Objects: adding '".\output\usbio.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\usart.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\sys.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\leds.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\angle.o"'
+### List of Objects: adding '".\output\bluetooth.o"'
+### List of Objects: adding '".\output\capture.o"'
+### List of Objects: adding '".\output\heart.o"'
+### List of Objects: adding '".\output\charger.o"'
+### List of Objects: adding '".\output\power.o"'
+### List of Objects: adding '".\output\rc522.o"'
+### List of Objects: adding '".\output\myiic.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_stm32f10x_ld.o" ".\output\system_stm32f10x.o" ".\output\core_cm3.o" ".\output\misc.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_bkp.o" ".\output\stm32f10x_can.o" ".\output\stm32f10x_cec.o" ".\output\stm32f10x_crc.o" ".\output\stm32f10x_dac.o" ".\output\stm32f10x_dbgmcu.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_fsmc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_i2c.o" ".\output\stm32f10x_iwdg.o" ".\output\stm32f10x_pwr.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_rtc.o" ".\output\stm32f10x_sdio.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_wwdg.o" ".\output\usb_core.o" ".\output\usb_init.o" ".\output\usb_int.o" ".\output\usb_mem.o" ".\output\usb_regs.o" ".\output\usb_sil.o" ".\output\hw_config.o" ".\output\usb_desc.o" ".\output\usb_endp.o" ".\output\usb_istr.o" ".\output\usb_prop.o" ".\output\usb_pwr.o" ".\output\usbio.o" ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\usart.o" ".\output\delay.o" ".\output\sys.o" ".\output\key.o" ".\output\leds.o" ".\output\led.o" ".\output\angle.o" ".\output\bluetooth.o" ".\output\capture.o" ".\output\heart.o" ".\output\charger.o" ".\output\power.o" ".\output\rc522.o" ".\output\myiic.o" --library_type=microlib --strict --scatter ".\Output\USB_Device.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\USB_Device.map" -o ".\Output\USB_Device.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\USB_Device.axf'
+### ADS-LD Command File: '.\Output\USB_Device.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\USB_Device.lnp', Handle=0x00000718
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\USB_Device.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

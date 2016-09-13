@@ -1,0 +1,32 @@
+.\Output\leds.o: ..\HardWare\LED\leds.c
+.\Output\leds.o: ..\SYSTEM\sys\sys.h
+.\Output\leds.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Output\leds.o: D:\Program Files\Keil\\ARM\RV31\INC\core_cm3.h
+.\Output\leds.o: D:\Program Files\Keil\\ARM\RV31\INC\stdint.h
+.\Output\leds.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\Output\leds.o: ..\User\stm32f10x_conf.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\Output\leds.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\Output\leds.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\Output\leds.o: ..\HardWare\LED\leds.h

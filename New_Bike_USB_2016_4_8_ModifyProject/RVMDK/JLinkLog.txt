@@ -1,0 +1,28 @@
+
+T27F0 000:707 SEGGER J-Link V4.90 Log File (0001ms, 0330ms total)
+T27F0 000:707 DLL Compiled: Jul 28 2014 10:35:20 (0001ms, 0330ms total)
+T27F0 000:707 Logging started @ 2016-04-09 20:42 (0001ms, 0330ms total)
+T27F0 000:708 JLINK_SetWarnOutHandler(...) (0000ms, 0330ms total)
+T27F0 000:708 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jul 17 2014 12:31:18
+Hardware: V8.00
+S/N: 805306163
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0306ms, 0636ms total)
+T27F0 001:014 JLINK_SetErrorOutHandler(...) (0000ms, 0636ms total)
+T27F0 001:014 JLINK_ExecCommand("ProjectFile = "E:\fengsannan\AndroidDemo\USB_Trans\New_Bike_USB_2016_4_8_ModifyProject\RVMDK\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0636ms total)
+T27F0 001:021 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0636ms total)
+T27F0 001:021 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0637ms total)
+T27F0 001:022 JLINK_SetSpeed(2000) (0000ms, 0637ms total)
+T27F0 001:022 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0637ms total)
+T27F0 001:022 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0637ms total)
+T27F0 001:022 JLINK_GetFirmwareString(...) (0000ms, 0637ms total)
+T27F0 001:051 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0637ms total)
+T27F0 001:051 JLINK_GetCompileDateTime() (0000ms, 0637ms total)
+T27F0 001:055 JLINK_GetFirmwareString(...) (0000ms, 0637ms total)
+T27F0 001:063 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0637ms total)
+T27F0 001:077 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE00FF010)TPIU fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF014)ETM fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+ -- CPU_ReadMem(4 bytes @ 0xE0001000) (0053ms, 0690ms total)
+T27F0 001:130 JLINK_JTAG_StoreRaw(..., 0x108 Bits)  returns 0x00 (0000ms, 0690ms total)
+T27F0 001:130 JLINK_JTAG_GetU32(BitPos = 227) >0x108 TIF>  returns 0xFFFFFFFF (0001ms, 0691ms total)
